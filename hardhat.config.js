@@ -47,7 +47,7 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        url: `${ process.env.MAIINETFORK_RPC_URL_ALCHEMY }`, //https://mainnet.infura.io/v3/b8c3e81e118f4779a74cbc79998e5249 //"https://eth-mainnet.g.alchemy.com/v2/L_oS11HfVoD9bbhGF0CsFLebHpIiUFqo",
+        url: `${ process.env.MAIINETFORK_RPC_URL_ALCHEMY }`, 
         blockNumber: 14390000
       }
     }
